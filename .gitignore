@@ -1,0 +1,21 @@
+# Python
+.venv
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset — download separately (see README)
+data/*
+!data/.gitkeep
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Model weight files
+*.pth
+*.pt
+
+# Raw Kaggle downloads
+data/raw/
